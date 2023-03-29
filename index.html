@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Professional Skill Project</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Roboto&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Script -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CSS styles sheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/de1d8d8018.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!---------------- Header ------------------->
+    <div class="fixed-header">
+      <div class="toolbar-container row">
+        <div class="left-toolbar col">
+          <div class="wallet-toolbar-menu container">
+            <div class="row">
+              <div class="col wallet-col">
+                <i class="fa-sharp fa-solid fa-wallet fa-2xl"></i>
+              </div>
+              <div class="col">
+                <div class="row account-name">trial</div>
+                <div class="row bank-balance">50,000,000.00đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="right-toolbar col">
+          <i class="fa-regular fa-calendar"></i>
+          <i class="fa-solid fa-eye"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <button type="button " class="header-btn btn btn-success">
+            ADD TRANSACTION
+          </button>
+        </nav>
+      </div>
+    </div>
+
+    <!------------------ Transaction---------------->
+    <div class="transaction-content">
+      <nav class="nav flex-column tabs-fixed">
+        <div class="list-item">
+          <div>
+            <a class="nav-link active" aria-current="page" href="#"
+              ><i class="fa-solid fa-bars fa-2xl"></i
+            ></a>
+          </div>
+
+          <div class="item first-item">
+            <i class="fa-regular fa-credit-card fa-xl"></i> <br />
+            <a class="nav-link" href="#">Transactions</a>
+          </div>
+          <hr />
+          <div class="item">
+            <i class="fa-regular fa-newspaper fa-xl"></i> <br />
+            <a class="nav-link" href="#">Report</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </body>
+</html>

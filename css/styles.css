@@ -1,0 +1,86 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+/*  <!---------------- Header -------------------> */
+.fixed-header {
+  position: fixed;
+  width: 100%;
+}
+.toolbar-container {
+  height: 5px;
+  border-style: groove;
+}
+.left-toolbar {
+  /* position: relative; */
+  background-color: #fff;
+}
+
+/* Right-toolbar */
+.right-toolbar {
+  /* position: relative; */
+  padding: 15px;
+  background-color: #fff;
+  text-align: right;
+}
+.header-btn {
+  margin-left: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.right-toolbar i {
+  margin: 0 10px;
+  color: #0000008a;
+}
+
+/* .left-toolbar */
+.wallet-toolbar-menu {
+  position: absolute;
+  top: 15px;
+  left: 100px;
+  width: 180px;
+}
+.account-name {
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 400;
+}
+.bank-balance {
+  font-size: 14px;
+  color: #000;
+  line-height: 18px;
+  font-weight: 700;
+}
+/*----------------- Transaction --------------*/
+.transaction-content {
+  background-color: rgb(205, 203, 203);
+  height: 1000px;
+  /* position: ; */
+}
+/* Tab-bar */
+.tabs-fixed {
+  position: fixed;
+  background-color: #fff;
+  height: 100vh;
+  top: 0;
+  text-align: center;
+  width: 80px;
+  box-shadow: 5px 1px 8px #888888;
+}
+.list-item .nav-link {
+  color: #0000008a;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+}
+.list-item .active {
+  margin-top: 20px;
+}
+.list-item .item {
+  margin: 50px 0;
+}
+.list-item .first-item {
+  margin-top: 70px;
+}
