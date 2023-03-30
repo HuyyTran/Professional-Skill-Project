@@ -1,9 +1,39 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: rgb(230, 230, 230);
+}
+
+/*-------------------- Tab-bar ----------------*/
+.tabs-fixed {
+  position: fixed;
+  background-color: #fff;
+  height: 100vh;
+  top: 0;
+  text-align: center;
+  width: 80px;
+  box-shadow: 5px 1px 8px #888888;
+  z-index: 100;
+}
+.list-item .nav-link {
+  color: #0000008a;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+}
+.list-item .active {
+  margin-top: 20px;
+}
+.list-item .item {
+  margin: 50px 0;
+}
+.list-item .first-item {
+  margin-top: 70px;
 }
 /*  <!---------------- Header -------------------> */
 .fixed-header {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
 }
 .toolbar-container {
@@ -51,36 +81,133 @@ body {
   line-height: 18px;
   font-weight: 700;
 }
+
 /*----------------- Transaction --------------*/
 .transaction-content {
-  background-color: rgb(205, 203, 203);
-  height: 1000px;
+  background-color: rgb(230, 230, 230);
+  height: 100vh;
   /* position: ; */
 }
-/* Tab-bar */
-.tabs-fixed {
-  position: fixed;
+.master-detail-container {
+  padding: 16px 16px 0;
+  margin: -16px;
+  min-height: 85vh;
+}
+.master-container {
   background-color: #fff;
-  height: 100vh;
-  top: 0;
-  text-align: center;
-  width: 80px;
-  box-shadow: 5px 1px 8px #888888;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 30px;
+  top: 96px;
+  width: 41.67%;
+  max-width: 664px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
-.list-item .nav-link {
-  color: #0000008a;
-  font-size: 12px;
-  line-height: 16px;
+/* Date Navbar */
+.master-container .nav {
+  height: 48px;
+  /* display: flex;*/
+  /* position: fixed; */
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+.first-hr {
+  margin: -11px 0px 0px;
+}
+.master-container .nav-link {
+  color: #0000008a;
+}
+.date-nav .active {
+  color: #2db84c;
+}
+.date-nav {
+  margin: 0;
   padding: 0;
+  white-space: nowrap;
 }
-.list-item .active {
-  margin-top: 20px;
+.date-nav a {
+  text-align: center;
 }
-.list-item .item {
-  margin: 50px 0;
+.date-nav li {
+  /* display: block; */
+  /* width: 20%; */
+  padding: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  box-sizing: border-box;
 }
-.list-item .first-item {
-  margin-top: 70px;
+/* ---- transaction div2--------- */
+.transaction-div2 {
+  padding: 8px 0;
+}
+.Inflow {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px 16px;
+}
+.Inflow .right {
+  color: #039be5;
+}
+.Outflow {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px 16px;
+}
+.Outflow .right {
+  color: #e51c23;
+}
+.transaction-div2 .right {
+  position: absolute;
+  right: 16px;
+}
+.Total-amount {
+  display: block;
+  position: relative;
+  text-align: right;
+  padding: 9px 0px;
+}
+.total-right {
+  right: 0;
+  color: #333333;
+}
+.Total-amount .line {
+  height: 0.5px;
+  background-color: rgb(218, 217, 217);
+  width: 140px;
+  position: absolute;
+  right: 0;
+}
+.view-report {
+  font-size: 14px;
+  color: #2db84c;
+  font-weight: 500;
+  text-align: center;
+  padding: 5px;
+}
+
+/* -------Transaction card---------- */
+
+.space-between {
+  height: 40px;
+  background-color: rgb(242, 242, 242);
+}
+
+/* ---Transaction header */
+.date-view {
+  background-color: rgb(247, 207, 247);
+}
+.amount-view {
+  background-color: rgb(192, 252, 232);
+}
+.transaction-header {
+  background-color: rgb(255, 0, 0);
+}
+/*----Daily Transaction Div---*/
+.daily-transaction-div {
+  background-color: rgb(153, 153, 248);
+}
+.daily-data {
+  background-color: #83d595;
 }
